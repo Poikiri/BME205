@@ -1,0 +1,8 @@
+# macOS system files
+.DS_Store
+
+# Assignment 1 (not to be pushed)
+assignment1/
+
+# Final project proposal (not to be pushed)
+Final Project Proposal Idea Statement.docx
