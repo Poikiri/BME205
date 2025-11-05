@@ -1,0 +1,3 @@
+bam_path	sample_type
+data/control_01.sorted.bam	control
+data/treatment_01.sorted.bam	treatment

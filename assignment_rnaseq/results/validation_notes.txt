@@ -1,0 +1,10 @@
+Validation checklist:
+- Mapping quality filter: MAPQ >= 10
+- Proper pairs only; each template counted once via read1
+- ≥50% overlap rule enforced using aligned fragment blocks
+- Proportional assignment when fragment overlaps multiple genes
+- gene_counts.tsv includes all genes from GFF (zeros possible)
+- TPM computed per sample; sums to ~1e6 per sample
+- Low-count filter: drop genes with total raw count < 10 before DE
+- Mann–Whitney U two-sided between control and treatment TPMs
+- log2FC = log2( (mean_treatment+1)/(mean_control+1) )
